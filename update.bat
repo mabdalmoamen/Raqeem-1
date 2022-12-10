@@ -1,0 +1,1 @@
+git reset --hard &&  git pull && composer update --ignore-platform-req=ext-bolt && npm install && npm run prod && php artisan serve
