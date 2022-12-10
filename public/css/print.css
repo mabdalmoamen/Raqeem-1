@@ -1,21 +1,10 @@
 @media print {
-    .hideMeInPrint {
-        display: none;
-    }
-    .table-responsive,
-    .card,
-    table,
-    .card-body,
-    .accordion-body {
-        padding: 0!important;
-    }
     * {
         font-size: 12px;
         font-weight: normal;
         direction: rtl;
     }
-   
- td,
+    td,
     th {
         text-align: center;
         border: 1px solid #222 !important;
