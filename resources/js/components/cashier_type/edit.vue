@@ -739,14 +739,7 @@ export default {
                 Number(selected.deff_price);
         },
         update() {
-            if (this.type.type_unit <= 0) {
-                Notification.customMsg(
-                    "error",
-                    "topRight",
-                    "يجب اختيار وحدة واحدة على الأقل"
-                );
-                return;
-            }
+
             if (this.type.sell_unit == null) {
                 Notification.customMsg(
                     "error",
